@@ -223,11 +223,11 @@ footer {
     }
 
     .main-image {
-        max-height: 728px;
+        max-height: 100%;
     }
 
     .text-wrapper {
-        max-width: 508px;
+        max-width: 560px;
     }
 
     .about-section {
@@ -235,6 +235,7 @@ footer {
         flex-direction: column;
         align-items: flex-start;
         gap: 20px;
+        padding: 60px 0;
     }
 
 }
